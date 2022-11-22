@@ -58,10 +58,10 @@
     
 
         function showAddressStart(){
-            modal.classList.add('open')
+            modal.classList.remove('close')
         }
         function hideAddressStart(){
-            modal.classList.remove('open')
+            modal.classList.add('close')
         }
 
         addressBtn.addEventListener('click', showAddressStart)

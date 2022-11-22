@@ -4,11 +4,15 @@
     width: 100%;
     height: 100%;
 }
-.modal.open {
-    display: flex;
-}
-.modal{
+.modal.close {
     display: none;
+}
+/* .modal.open {
+    display: flex;
+} */
+
+.modal{
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
