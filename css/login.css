@@ -4,6 +4,8 @@ body {
   align-items: center;
   /* text-align: center; */
   background-color: var(--bg--color);
+  background: url("../pic/slide3.jpg") top center / cover no-repeat;
+  min-width: 100%;
   font-family: "Roboto", sans-serif;
 }
 .wapper-heading{
@@ -31,8 +33,10 @@ body {
   outline: none;
   border-radius: 10px;
 }
-.wapper label {
+.wapper label{
   margin-left: 6px;
+  font-size: 12px;
+  font-weight: 400;
 }
 .wapper .btn {
   padding: 8px 15px;
@@ -48,9 +52,9 @@ body {
 .wapper input:focus {
   border: 1px solid var(--bg--color);
 }
-.wapper input::placeholder {
+/* .wapper input::placeholder {
   color: black;
-}
+} */
 .wapper .signup-link {
   display: block;
   transform: translateX(120px);

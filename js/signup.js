@@ -20,3 +20,19 @@ btnSignup.addEventListener("click", (e) => {
     window.location.href = "login.html";
   }
 });
+btnSignup.addEventListener("Enter", (e) => {
+  e.preventDefault();
+  let user = {
+    username: username.value,
+    email: email.value,
+    password: password.value,
+  };
+  let json = JSON.stringify(user);
+  if (!username.value || !email.value || !password.value) {
+    alert("vui long nhap day du thong tin");
+  } else {
+    localStorage.setItem(username.value, json);
+    alert("dang ky thanh cong");
+    window.location.href = "login.html";
+  }
+});
