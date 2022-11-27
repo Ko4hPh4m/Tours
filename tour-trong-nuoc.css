@@ -1,0 +1,138 @@
+.background{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#timkiem{
+    height: 60px;
+    display: flex;
+    background-color: bisque;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.input_timkiem{
+    background-color: #fff;
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(135, 127, 127);
+    border-radius: 5px;
+    position: relative;
+}
+.input_ngay{
+    background-color: #fff;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(135, 127, 127);
+    border-radius: 5px;
+    margin-left: 20px;
+    position: relative;
+}
+.start_date{
+    position: relative;
+}
+.select_date{
+    position: absolute;
+    top: 25%;
+    right: 5px;
+    border: none;
+    outline: none;
+}
+.ngay{
+    display: flex;
+}
+.select_region{
+    height: 36px;
+    width: 120px;
+    border: 2px solid rgb(135, 127, 127);
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.button_search button{
+    margin-left: 20px;
+    padding: 9px 16px;
+    background-color: darksalmon;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+    color: indianred;
+    margin-left: 20px;
+}
+.tour{
+    top: 10px;
+    width: 100%;
+    background-color:#fff; 
+    border-bottom: 1px solid gray;
+    display: flex;
+    background-color: antiquewhite;
+}
+.tour a{
+    text-decoration: none;
+}
+.anh{
+    padding: 5px;
+    margin-left: 15px;
+    width: 400px;
+    height: 250px;
+}
+.mota{
+    margin-left: 15px;
+    padding: 20px;
+    width: 600px;
+}
+.mota_first{
+    font-size: 22px;
+    font-weight: 600;
+}
+.box_price{
+    text-align: center;
+    margin-top: 50px;
+}
+.price{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: darksalmon;
+    padding: 5px;
+}
+.xemthem{
+    text-align: center;
+    padding: 20px;
+}
+.xemthem a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: darksalmon;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(23, 44, 127);
+}
+.footer-top{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 2rem 5rem;
+}
+.footer-top .infor{
+    width: 40%;
+}
+.footer-top .service-information{
+    width: 20%;
+}
+.footer-top .customer-care{
+    width: 20%;
+}
+.footer-top .contact{
+    width: 20%;
+}
