@@ -125,14 +125,22 @@ h2{
     padding: 2rem 5rem;
 }
 .footer-top .infor{
+    padding: 2rem;
     width: 40%;
 }
 .footer-top .service-information{
+    padding: 0 2rem;
     width: 20%;
 }
 .footer-top .customer-care{
+    padding: 0 2rem;
     width: 20%;
 }
 .footer-top .contact{
+    padding: 0 2rem;
     width: 20%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
 }
